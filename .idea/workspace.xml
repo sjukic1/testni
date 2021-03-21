@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="popravka 1 testa za postanski broj napomena u dodan je i sleep u testovima Zadatak1GlavnaTest jer se klinke na OK pa odmah na cancel i ne stigne se provjeriti postanski broj">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/javafx.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/javafx.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="kopiran tut1 u tut2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baza.db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/baza.db.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fxml/glavna.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fxml/glavna.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fxml/grad.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fxml/grad.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/GeografijaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/GeografijaDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/GlavnaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/GlavnaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Grad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Grad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/GradController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/GradController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -326,7 +317,7 @@
       <workItem from="1616327198103" duration="2031000" />
       <workItem from="1616329839299" duration="585000" />
       <workItem from="1616346940847" duration="587000" />
-      <workItem from="1616347901377" duration="37000" />
+      <workItem from="1616347901377" duration="329000" />
     </task>
     <task id="LOCAL-00001" summary="Initial import">
       <created>1579258425293</created>
@@ -447,7 +438,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616347493058</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="kopiran tut1 u tut2">
+      <created>1616348155264</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1616348155264</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -481,7 +479,8 @@
     <MESSAGE value="uadjen 3 zadatak" />
     <MESSAGE value="popravke" />
     <MESSAGE value="popravka 1 testa za postanski broj napomena u dodan je i sleep u testovima Zadatak1GlavnaTest jer se klinke na OK pa odmah na cancel i ne stigne se provjeriti postanski broj" />
-    <option name="LAST_COMMIT_MESSAGE" value="popravka 1 testa za postanski broj napomena u dodan je i sleep u testovima Zadatak1GlavnaTest jer se klinke na OK pa odmah na cancel i ne stigne se provjeriti postanski broj" />
+    <MESSAGE value="kopiran tut1 u tut2" />
+    <option name="LAST_COMMIT_MESSAGE" value="kopiran tut1 u tut2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="49" y="40" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615803259569">
@@ -500,38 +499,38 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="531" y="293" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.40.1366.728@0.40.1366.728" timestamp="1615803199336" />
-    <state x="0" y="40" key="CommitChangelistDialog2" timestamp="1616348133449">
+    <state x="0" y="40" key="CommitChangelistDialog2" timestamp="1616348154170">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="0" y="40" key="CommitChangelistDialog2/0.40.1366.728@0.40.1366.728" timestamp="1616348133449" />
+    <state x="0" y="40" key="CommitChangelistDialog2/0.40.1366.728@0.40.1366.728" timestamp="1616348154170" />
     <state x="389" y="145" key="FileChooserDialogImpl" timestamp="1616347934013">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="389" y="145" key="FileChooserDialogImpl/0.40.1366.728@0.40.1366.728" timestamp="1616347934013" />
-    <state width="1323" height="169" key="GridCell.Tab.0.bottom" timestamp="1616348070414">
+    <state width="1323" height="169" key="GridCell.Tab.0.bottom" timestamp="1616348232890">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="169" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1616348070414" />
-    <state width="1323" height="169" key="GridCell.Tab.0.center" timestamp="1616348070414">
+    <state width="1323" height="169" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1616348232890" />
+    <state width="1323" height="169" key="GridCell.Tab.0.center" timestamp="1616348232890">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="169" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1616348070414" />
-    <state width="1323" height="169" key="GridCell.Tab.0.left" timestamp="1616348070414">
+    <state width="1323" height="169" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1616348232890" />
+    <state width="1323" height="169" key="GridCell.Tab.0.left" timestamp="1616348232890">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="169" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1616348070414" />
-    <state width="1323" height="169" key="GridCell.Tab.0.right" timestamp="1616348070414">
+    <state width="1323" height="169" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1616348232890" />
+    <state width="1323" height="169" key="GridCell.Tab.0.right" timestamp="1616348232890">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="169" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1616348070414" />
+    <state width="1323" height="169" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1616348232890" />
     <state x="163" y="40" key="SettingsEditor" timestamp="1616347937495">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="163" y="40" key="SettingsEditor/0.40.1366.728@0.40.1366.728" timestamp="1616347937495" />
-    <state x="275" y="137" key="Vcs.Push.Dialog.v2" timestamp="1616347497542">
+    <state x="275" y="137" key="Vcs.Push.Dialog.v2" timestamp="1616348163561">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="275" y="137" key="Vcs.Push.Dialog.v2/0.40.1366.728@0.40.1366.728" timestamp="1616347497542" />
+    <state x="275" y="137" key="Vcs.Push.Dialog.v2/0.40.1366.728@0.40.1366.728" timestamp="1616348163561" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
