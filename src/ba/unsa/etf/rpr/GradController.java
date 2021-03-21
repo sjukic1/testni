@@ -1,21 +1,36 @@
 package ba.unsa.etf.rpr;
-
+import javafx.application.Platform;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.TextField;
+import javafx.scene.control.TextInputDialog;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
+import javafx.scene.layout.Region;
 import javafx.stage.Stage;
 
+import javax.swing.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.URL;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 
 public class GradController {
     public TextField fieldNaziv;
     public TextField fieldBrojStanovnika;
+    public TextField fldPostanskiBroj;
     public ChoiceBox<Drzava> choiceDrzava;
     public ObservableList<Drzava> listDrzave;
     private Grad grad;
+    public ImageView imgView;
 
     public GradController(Grad grad, ArrayList<Drzava> drzave) {
         this.grad = grad;
@@ -33,6 +48,8 @@ public class GradController {
             for (Drzava drzava : listDrzave)
                 if (drzava.getId() == grad.getDrzava().getId())
                     choiceDrzava.getSelectionModel().select(drzava);
+            fldPostanskiBroj.setText(Integer.toString(grad.getPostanskiBroj()));
+            imgView.setImage(new Image("img/slika.jpg"));
         } else {
             choiceDrzava.getSelectionModel().selectFirst();
         }
@@ -76,13 +93,80 @@ public class GradController {
             fieldBrojStanovnika.getStyleClass().add("poljeIspravno");
         }
 
-        if (!sveOk) return;
+        if(!sveOk && fldPostanskiBroj.getText().isEmpty()){
+                return;
+            }
 
-        if (grad == null) grad = new Grad();
-        grad.setNaziv(fieldNaziv.getText());
-        grad.setBrojStanovnika(Integer.parseInt(fieldBrojStanovnika.getText()));
-        grad.setDrzava(choiceDrzava.getValue());
-        Stage stage = (Stage) fieldNaziv.getScene().getWindow();
-        stage.close();
+        if (fldPostanskiBroj.getText().isEmpty()) {
+            if (grad == null) grad = new Grad();
+            grad.setNaziv(fieldNaziv.getText());
+            grad.setBrojStanovnika(Integer.parseInt(fieldBrojStanovnika.getText()));
+            grad.setDrzava(choiceDrzava.getValue());
+            Stage stage = (Stage) fieldNaziv.getScene().getWindow();
+            stage.close();
+        } else if (fldPostanskiBroj.getText().matches("(?=.*[a-zA-Z])[a-zA-Z0-9]+")) {
+            fldPostanskiBroj.getStyleClass().removeAll("poljeIspravno");
+            fldPostanskiBroj.getStyleClass().add("poljeNijeIspravno");
+        } else {
+
+            try {
+                URL lokacija = new URL("http://c9.etf.unsa.ba/proba/postanskiBroj.php?postanskiBroj=" + fldPostanskiBroj.getText());
+                new Thread(() -> {
+                    String json = "";
+                    String line = null;
+                    BufferedReader ulaz = null;
+                    try {
+                        ulaz = new BufferedReader(new InputStreamReader(lokacija.openStream(), StandardCharsets.UTF_8));
+                        while ((line = ulaz.readLine()) != null) {
+                            json = json + line;
+                        }
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                    if (json.equals("NOT OK")) {
+                        fldPostanskiBroj.getStyleClass().removeAll("poljeIspravno");
+                        fldPostanskiBroj.getStyleClass().add("poljeNijeIspravno");
+                    } else {
+                        Platform.runLater(() -> {
+                            fldPostanskiBroj.getStyleClass().removeAll("poljeNijeIspravno");
+                            fldPostanskiBroj.getStyleClass().add("poljeIspravno");
+                            if(!fieldNaziv.getText().trim().isEmpty() && !fieldBrojStanovnika.getText().trim().isEmpty()) {
+                                if (grad == null) grad = new Grad();
+                                grad.setNaziv(fieldNaziv.getText());
+                                grad.setBrojStanovnika(Integer.parseInt(fieldBrojStanovnika.getText()));
+                                grad.setDrzava(choiceDrzava.getValue());
+                                grad.setPostanskiBroj(Integer.parseInt(fldPostanskiBroj.getText()));
+                                Stage stage = (Stage) fieldNaziv.getScene().getWindow();
+                                stage.close();
+                            }
+                        });
+                    }
+
+                }).start();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+
+    }
+
+    public void dodajSliku(ActionEvent actionEvent) {
+        TextInputDialog dialog = new TextInputDialog();
+        dialog.setHeaderText("PUTANJA");
+        dialog.setContentText("Unesite putanju do Vase fotografije");
+        dialog.showAndWait();
+        if(!dialog.getEditor().getText().isEmpty()) {
+            String putanja = dialog.getEditor().getText();
+            Image image = new Image(putanja);
+            imgView.setImage(image);
+        }
+    }
+
+    public void odaberiSliku(ActionEvent actionEvent) throws IOException {
+        Stage stage=new Stage();
+        Parent root = FXMLLoader.load(getClass().getResource("/fxml/pretraga.fxml"));
+        stage.setTitle("Pretraga datoteke");
+        stage.setScene(new Scene(root, Region.USE_COMPUTED_SIZE, Region.USE_COMPUTED_SIZE));
+        stage.show();
     }
 }
