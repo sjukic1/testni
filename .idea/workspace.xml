@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="kopiran tut1 u tut2">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/net_sf_jasperreports_jasperreports_6_16_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/GradoviReport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baza.db" beforeDir="false" afterPath="$PROJECT_DIR$/baza.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nrs-t1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/nrs-t1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/fxml/glavna.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fxml/glavna.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/GeografijaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/GeografijaDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/GlavnaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/GlavnaController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +107,7 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -108,14 +116,14 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579258535779" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="C:/Program Files/Java/javafx-sdk-13.0.2/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../P16_Biblioteka" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="JUnit.Zadatak1GlavnaTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -318,6 +326,10 @@
       <workItem from="1616329839299" duration="585000" />
       <workItem from="1616346940847" duration="587000" />
       <workItem from="1616347901377" duration="329000" />
+      <workItem from="1616348236143" duration="273000" />
+      <workItem from="1616353999957" duration="1027000" />
+      <workItem from="1616406825912" duration="101000" />
+      <workItem from="1616407524180" duration="3079000" />
     </task>
     <task id="LOCAL-00001" summary="Initial import">
       <created>1579258425293</created>
@@ -445,7 +457,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616348155264</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="kopiran tut1 u tut2">
+      <created>1616348333895</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1616348333895</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -499,38 +518,42 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="531" y="293" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.40.1366.728@0.40.1366.728" timestamp="1615803199336" />
-    <state x="0" y="40" key="CommitChangelistDialog2" timestamp="1616348154170">
+    <state x="0" y="40" key="CommitChangelistDialog2" timestamp="1616348332973">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="0" y="40" key="CommitChangelistDialog2/0.40.1366.728@0.40.1366.728" timestamp="1616348154170" />
-    <state x="389" y="145" key="FileChooserDialogImpl" timestamp="1616347934013">
+    <state x="0" y="40" key="CommitChangelistDialog2/0.40.1366.728@0.40.1366.728" timestamp="1616348332973" />
+    <state x="389" y="145" key="FileChooserDialogImpl" timestamp="1616408274771">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="389" y="145" key="FileChooserDialogImpl/0.40.1366.728@0.40.1366.728" timestamp="1616347934013" />
-    <state width="1323" height="169" key="GridCell.Tab.0.bottom" timestamp="1616348232890">
+    <state x="389" y="145" key="FileChooserDialogImpl/0.40.1366.728@0.40.1366.728" timestamp="1616408274771" />
+    <state width="1323" height="169" key="GridCell.Tab.0.bottom" timestamp="1616410769254">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="169" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1616348232890" />
-    <state width="1323" height="169" key="GridCell.Tab.0.center" timestamp="1616348232890">
+    <state width="1323" height="169" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1616410769254" />
+    <state width="1323" height="169" key="GridCell.Tab.0.center" timestamp="1616410769253">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="169" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1616348232890" />
-    <state width="1323" height="169" key="GridCell.Tab.0.left" timestamp="1616348232890">
+    <state width="1323" height="169" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1616410769253" />
+    <state width="1323" height="169" key="GridCell.Tab.0.left" timestamp="1616410769253">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="169" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1616348232890" />
-    <state width="1323" height="169" key="GridCell.Tab.0.right" timestamp="1616348232890">
+    <state width="1323" height="169" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1616410769253" />
+    <state width="1323" height="169" key="GridCell.Tab.0.right" timestamp="1616410769254">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="169" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1616348232890" />
-    <state x="163" y="40" key="SettingsEditor" timestamp="1616347937495">
+    <state width="1323" height="169" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1616410769254" />
+    <state x="163" y="40" key="SettingsEditor" timestamp="1616409685880">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="163" y="40" key="SettingsEditor/0.40.1366.728@0.40.1366.728" timestamp="1616347937495" />
-    <state x="275" y="137" key="Vcs.Push.Dialog.v2" timestamp="1616348163561">
+    <state x="163" y="40" key="SettingsEditor/0.40.1366.728@0.40.1366.728" timestamp="1616409685880" />
+    <state x="275" y="137" key="Vcs.Push.Dialog.v2" timestamp="1616348337359">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="275" y="137" key="Vcs.Push.Dialog.v2/0.40.1366.728@0.40.1366.728" timestamp="1616348163561" />
+    <state x="275" y="137" key="Vcs.Push.Dialog.v2/0.40.1366.728@0.40.1366.728" timestamp="1616348337359" />
+    <state x="387" y="297" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1616409677655">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="387" y="297" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.40.1366.728@0.40.1366.728" timestamp="1616409677655" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

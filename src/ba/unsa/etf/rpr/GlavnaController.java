@@ -14,6 +14,7 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.stage.Stage;
+import net.sf.jasperreports.engine.JRException;
 
 import java.io.File;
 import java.io.IOException;
@@ -164,5 +165,13 @@ public class GlavnaController {
         File dbfile = new File("baza.db");
         dbfile.delete();
         dao = GeografijaDAO.getInstance();
+    }
+
+    public void actionStampanje(ActionEvent actionEvent){
+        try {
+            new GradoviReport().showReport(GeografijaDAO.getInstance().conn);
+        } catch (JRException e1) {
+            e1.printStackTrace();
+        }
     }
 }

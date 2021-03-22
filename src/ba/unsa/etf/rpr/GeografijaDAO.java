@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class GeografijaDAO {
     private static GeografijaDAO instance;
-    private Connection conn;
+    public Connection conn;
 
     private PreparedStatement glavniGradUpit, dajDrzavuUpit, obrisiDrzavuUpit, obrisiGradoveZaDrzavuUpit, nadjiDrzavuUpit,
             dajGradoveUpit, dodajGradUpit, odrediIdGradaUpit, dodajDrzavuUpit, odrediIdDrzaveUpit, promijeniGradUpit, dajGradUpit,
