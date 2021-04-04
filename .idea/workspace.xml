@@ -1,23 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="uradjen 1 zadatak">
-      <change afterPath="$PROJECT_DIR$/resources/Translation.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/Translation_bs.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/Translation_en_US.properties" afterDir="false" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="uradjen 2 zadatak">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_lowagie_itext_2_1_7_js8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jasperreports_jasperreports_6_16_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_64.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_castor_castor_core_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_castor_castor_xml_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_ecj_3_21_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jfree_jcommon_1_0_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jfree_jfreechart_1_0_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_13_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_win_13_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_13_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_win_13_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_13_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_13_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_13_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_13_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testfx_testfx_core_4_0_15_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testfx_testfx_junit5_4_0_15_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_21_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baza.db" beforeDir="false" afterPath="$PROJECT_DIR$/baza.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/nrs-t1/ba/unsa/etf/rpr/GeografijaDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nrs-t1/ba/unsa/etf/rpr/GeografijaDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/nrs-t1/ba/unsa/etf/rpr/GlavnaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nrs-t1/ba/unsa/etf/rpr/GlavnaController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/nrs-t1/ba/unsa/etf/rpr/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nrs-t1/ba/unsa/etf/rpr/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/nrs-t1/fxml/glavna.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nrs-t1/fxml/glavna.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fxml/drzava.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fxml/drzava.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fxml/glavna.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fxml/glavna.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fxml/grad.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fxml/grad.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fxml/pretraga.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fxml/pretraga.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/GlavnaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/GlavnaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/GradController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/GradController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nrs-t1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/nrs-t1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nrs-t1/ba/unsa/etf/rpr/GradController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nrs-t1/ba/unsa/etf/rpr/GradController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nrs-t1/fxml/drzava.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nrs-t1/fxml/drzava.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nrs-t1/fxml/grad.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nrs-t1/fxml/grad.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nrs-t1/fxml/pretraga.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nrs-t1/fxml/pretraga.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Drzava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/Drzava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/DrzavaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/DrzavaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/GeografijaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/GeografijaDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/GlavnaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/GlavnaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Grad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/Grad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/GradController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/GradController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/GradoviReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/GradoviReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/PretragaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/PretragaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/DrzavaControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/DrzavaControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/GeografijaDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/GeografijaDAOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/GlavnaControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/GlavnaControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/GradControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/GradControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/Zadatak1GlavnaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/Zadatak1GlavnaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +137,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectId" id="1R1EkMKSKWJgUKWqyFIvaMGKpKP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -124,14 +173,14 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579258535779" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../P16_Biblioteka" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/nesto/tut 2" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Maven.nrs-t1 [test]">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -203,26 +252,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Zadatak1GlavnaTest.testKolonaPostanskiBroj" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="nrs-t1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ba.unsa.etf.rpr.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr" />
-      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.Zadatak1GlavnaTest" />
-      <option name="METHOD_NAME" value="testKolonaPostanskiBroj(org.testfx.api.FxRobot)" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Zadatak1GradControllerTest.testValidacijaPostanskiBroj2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="nrs-t1" />
       <extension name="coverage">
@@ -271,6 +300,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="nrs-t1 [test]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="test" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -295,18 +349,18 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.ba.unsa.etf.rpr in nrs-t1" />
-      <item itemvalue="JUnit.Zadatak1GlavnaTest.testKolonaPostanskiBroj" />
       <item itemvalue="JUnit.Zadatak1GlavnaTest" />
       <item itemvalue="JUnit.GlavnaControllerTest.testIzmijeniGrad" />
       <item itemvalue="JUnit.Zadatak1GradControllerTest.testValidacijaPostanskiBroj2" />
+      <item itemvalue="Maven.nrs-t1 [test]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Maven.nrs-t1 [test]" />
         <item itemvalue="JUnit.Zadatak1GlavnaTest" />
         <item itemvalue="JUnit.ba.unsa.etf.rpr in nrs-t1" />
         <item itemvalue="JUnit.Zadatak1GradControllerTest.testValidacijaPostanskiBroj2" />
         <item itemvalue="JUnit.GlavnaControllerTest.testIzmijeniGrad" />
-        <item itemvalue="JUnit.Zadatak1GlavnaTest.testKolonaPostanskiBroj" />
       </list>
     </recent_temporary>
   </component>
@@ -340,7 +394,7 @@
       <workItem from="1616407524180" duration="4618000" />
       <workItem from="1616684736712" duration="96000" />
       <workItem from="1617092481769" duration="44000" />
-      <workItem from="1617532435708" duration="7625000" />
+      <workItem from="1617532435708" duration="15955000" />
     </task>
     <task id="LOCAL-00001" summary="Initial import">
       <created>1579258425293</created>
@@ -489,7 +543,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616410865643</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="uradjen 2 zadatak">
+      <created>1617540585720</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1617540585720</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -525,9 +586,14 @@
     <MESSAGE value="popravka 1 testa za postanski broj napomena u dodan je i sleep u testovima Zadatak1GlavnaTest jer se klinke na OK pa odmah na cancel i ne stigne se provjeriti postanski broj" />
     <MESSAGE value="kopiran tut1 u tut2" />
     <MESSAGE value="uradjen 1 zadatak" />
-    <option name="LAST_COMMIT_MESSAGE" value="uradjen 1 zadatak" />
+    <MESSAGE value="uradjen 2 zadatak" />
+    <option name="LAST_COMMIT_MESSAGE" value="uradjen 2 zadatak" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="62" key="#Inspections" timestamp="1617546958928">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="275" y="62" key="#Inspections/0.40.1366.728@0.40.1366.728" timestamp="1617546958928" />
     <state x="49" y="40" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617533855866">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
@@ -540,46 +606,58 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="488" y="120" key="#com.intellij.ide.util.MemberChooser/0.40.1366.728@0.40.1366.728" timestamp="1616325955989" />
+    <state x="313" y="93" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1617543965432">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="313" y="93" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.40.1366.728@0.40.1366.728" timestamp="1617543965432" />
     <state x="531" y="293" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1615803199336">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="531" y="293" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.40.1366.728@0.40.1366.728" timestamp="1615803199336" />
-    <state x="0" y="40" key="CommitChangelistDialog2" timestamp="1616410864741">
+    <state x="369" y="329" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1617546380955">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="0" y="40" key="CommitChangelistDialog2/0.40.1366.728@0.40.1366.728" timestamp="1616410864741" />
-    <state x="389" y="145" key="FileChooserDialogImpl" timestamp="1616408274771">
+    <state x="369" y="329" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.40.1366.728@0.40.1366.728" timestamp="1617546380955" />
+    <state x="0" y="40" key="CommitChangelistDialog2" timestamp="1617540584697">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="389" y="145" key="FileChooserDialogImpl/0.40.1366.728@0.40.1366.728" timestamp="1616408274771" />
-    <state width="1323" height="88" key="GridCell.Tab.0.bottom" timestamp="1617539785808">
+    <state x="0" y="40" key="CommitChangelistDialog2/0.40.1366.728@0.40.1366.728" timestamp="1617540584697" />
+    <state x="389" y="145" key="FileChooserDialogImpl" timestamp="1617544286658">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="88" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1617539785808" />
-    <state width="1323" height="88" key="GridCell.Tab.0.center" timestamp="1617539785808">
+    <state x="389" y="145" key="FileChooserDialogImpl/0.40.1366.728@0.40.1366.728" timestamp="1617544286658" />
+    <state width="1323" height="246" key="GridCell.Tab.0.bottom" timestamp="1617549445113">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="88" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1617539785808" />
-    <state width="1323" height="88" key="GridCell.Tab.0.left" timestamp="1617539785808">
+    <state width="1323" height="246" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1617549445113" />
+    <state width="1323" height="246" key="GridCell.Tab.0.center" timestamp="1617549445112">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="88" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1617539785808" />
-    <state width="1323" height="88" key="GridCell.Tab.0.right" timestamp="1617539785808">
+    <state width="1323" height="246" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1617549445112" />
+    <state width="1323" height="246" key="GridCell.Tab.0.left" timestamp="1617549445112">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="88" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1617539785808" />
-    <state x="163" y="40" key="SettingsEditor" timestamp="1617538098267">
+    <state width="1323" height="246" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1617549445112" />
+    <state width="1323" height="246" key="GridCell.Tab.0.right" timestamp="1617549445112">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="163" y="40" key="SettingsEditor/0.40.1366.728@0.40.1366.728" timestamp="1617538098267" />
+    <state width="1323" height="246" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1617549445112" />
+    <state x="213" y="59" key="Maven.ArtifactSearchDialog" timestamp="1617544168822">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="213" y="59" key="Maven.ArtifactSearchDialog/0.40.1366.728@0.40.1366.728" timestamp="1617544168822" />
+    <state x="163" y="40" key="SettingsEditor" timestamp="1617548293472">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="163" y="40" key="SettingsEditor/0.40.1366.728@0.40.1366.728" timestamp="1617548293472" />
     <state x="530" y="319" key="VCS.ChangelistChooser" timestamp="1616410892850">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="530" y="319" key="VCS.ChangelistChooser/0.40.1366.728@0.40.1366.728" timestamp="1616410892850" />
-    <state x="275" y="137" key="Vcs.Push.Dialog.v2" timestamp="1616410868810">
+    <state x="275" y="137" key="Vcs.Push.Dialog.v2" timestamp="1617540591721">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="275" y="137" key="Vcs.Push.Dialog.v2/0.40.1366.728@0.40.1366.728" timestamp="1616410868810" />
+    <state x="275" y="137" key="Vcs.Push.Dialog.v2/0.40.1366.728@0.40.1366.728" timestamp="1617540591721" />
     <state x="387" y="297" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1616409677655">
       <screen x="0" y="40" width="1366" height="728" />
     </state>

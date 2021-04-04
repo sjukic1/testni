@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <TableView fx:id="tableViewGradovi" prefHeight="200.0" prefWidth="150.0" BorderPane.alignment="CENTER">
+        <columns>
+          <TableColumn fx:id="colGradId" prefWidth="75.0" text="%key.id" />
+          <TableColumn fx:id="colGradNaziv" minWidth="0.0" prefWidth="69.0" text="%key.naziv" />
+          <TableColumn fx:id="colGradStanovnika" minWidth="0.0" prefWidth="102.0" text="%key.stanovnika" />
+          <TableColumn fx:id="colGradDrzava" minWidth="0.0" prefWidth="103.0" text="%key.drzava" />
+            <TableColumn fx:id="colGradPostanskiBroj" prefWidth="130.0" text="%key.postanski" />
+        </columns>
+      </TableView>
+   </center>
+   <right>
+      <VBox prefHeight="200.0" prefWidth="120.0" spacing="5.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="btnDodajGrad" mnemonicParsing="false" onAction="#actionDodajGrad" prefWidth="Infinity" text="%key.dodajGrad" />
+            <Button fx:id="btnDodajDrzavu" mnemonicParsing="false" onAction="#actionDodajDrzavu" prefWidth="Infinity" text="%key.dodajDrzavu" />
+            <Button fx:id="btnIzmijeniGrad" mnemonicParsing="false" onAction="#actionIzmijeniGrad" prefWidth="Infinity" text="%key.izmijeniGrad" />
+            <Button fx:id="btnObrisiGrad" mnemonicParsing="false" onAction="#actionObrisiGrad" prefWidth="Infinity" text="%key.obrsisGrad" />
+            <Button mnemonicParsing="false" onAction="#actionStampanje" prefHeight="25.0" prefWidth="119.0" text="%key.stampa" />
+            <Button fx:id="btnJezik" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#odabirJezika" text="%key.jezikGlavna" />
+         </children>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </VBox>
+   </right>
+</BorderPane>
