@@ -8,17 +8,14 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Alert;
-import javafx.scene.control.ButtonType;
-import javafx.scene.control.TableColumn;
-import javafx.scene.control.TableView;
+import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.stage.Stage;
 import net.sf.jasperreports.engine.JRException;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.Optional;
+import java.util.*;
 
 import static javafx.scene.layout.Region.USE_COMPUTED_SIZE;
 
@@ -32,6 +29,7 @@ public class GlavnaController {
     public TableColumn<Grad,String> colGradDrzava;
     private GeografijaDAO dao;
     private ObservableList<Grad> listGradovi;
+    public Button btnJezik;
 
     public GlavnaController() {
         dao = GeografijaDAO.getInstance();
@@ -52,7 +50,8 @@ public class GlavnaController {
         Stage stage = new Stage();
         Parent root = null;
         try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/grad.fxml"));
+            ResourceBundle bundle = ResourceBundle.getBundle("Translation");
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/grad.fxml"), bundle);
             GradController gradController = new GradController(null, dao.drzave());
             loader.setController(gradController);
             root = loader.load();
@@ -83,7 +82,8 @@ public class GlavnaController {
         Stage stage = new Stage();
         Parent root = null;
         try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/drzava.fxml"));
+            ResourceBundle bundle = ResourceBundle.getBundle("Translation");
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/drzava.fxml"), bundle);
             DrzavaController drzavaController = new DrzavaController(null, dao.gradovi());
             loader.setController(drzavaController);
             root = loader.load();
@@ -116,7 +116,8 @@ public class GlavnaController {
         Stage stage = new Stage();
         Parent root = null;
         try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/grad.fxml"));
+            ResourceBundle bundle = ResourceBundle.getBundle("Translation");
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/grad.fxml"), bundle);
             GradController gradController = new GradController(grad, dao.drzave());
             loader.setController(gradController);
             root = loader.load();
@@ -172,6 +173,43 @@ public class GlavnaController {
             new GradoviReport().showReport(GeografijaDAO.getInstance().conn);
         } catch (JRException e1) {
             e1.printStackTrace();
+        }
+    }
+
+    public void odabirJezika (ActionEvent actionEvent){
+        List<String> choices = new ArrayList<>();
+        choices.add("BS");
+        choices.add("US");
+        ChoiceDialog<String> dialog;
+        dialog = new ChoiceDialog<>("BS",choices);
+        dialog.setTitle("Jezik");
+        dialog.setHeaderText("Odaberite jezik");
+        dialog.setContentText("Odaberite jedan od ponudenih jezika");
+
+        Optional<String> result = dialog.showAndWait();
+        if (result.isPresent()){
+            if (result.get().equals("BS"))
+                Locale.setDefault(new Locale("bs", "BA"));
+            else if (result.get().equals("US")) {
+                Locale.setDefault(new Locale("en", "US"));
+            }
+        }
+
+        Stage thisStage = (Stage) btnJezik.getScene().getWindow();
+        thisStage.close();
+
+        Stage stage = new Stage();
+        try {
+            ResourceBundle bundle = ResourceBundle.getBundle("Translation");
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/glavna.fxml"), bundle);
+            GlavnaController ctrl = new GlavnaController();
+            loader.setController(ctrl);
+            Parent root = loader.load();
+            stage.setTitle("Gradovi svijeta");
+            stage.setScene(new Scene(root, 600, 400));
+            stage.show();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 }

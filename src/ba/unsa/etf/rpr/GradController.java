@@ -22,6 +22,7 @@ import java.io.InputStreamReader;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
+import java.util.ResourceBundle;
 
 public class GradController {
     public TextField fieldNaziv;
@@ -164,7 +165,8 @@ public class GradController {
 
     public void odaberiSliku(ActionEvent actionEvent) throws IOException {
         Stage stage=new Stage();
-        Parent root = FXMLLoader.load(getClass().getResource("/fxml/pretraga.fxml"));
+        ResourceBundle bundle = ResourceBundle.getBundle("Translation");
+        Parent root = FXMLLoader.load(getClass().getResource("/fxml/pretraga.fxml"), bundle);
         stage.setTitle("Pretraga datoteke");
         stage.setScene(new Scene(root, Region.USE_COMPUTED_SIZE, Region.USE_COMPUTED_SIZE));
         stage.show();
