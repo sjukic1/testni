@@ -74,9 +74,7 @@ public class GeografijaDAO {
     }
 
     private void regenerisiBazu() {
-        Scanner ulaz = null;
-        try {
-            ulaz = new Scanner(new FileInputStream("baza.db.sql"));
+        Scanner ulaz = new Scanner(getClass().getResourceAsStream("/db/baza.db.sql"));
             String sqlUpit = "";
             while (ulaz.hasNext()) {
                 sqlUpit += ulaz.nextLine();
@@ -91,9 +89,6 @@ public class GeografijaDAO {
                 }
             }
             ulaz.close();
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
     }
 
     // Metoda za potrebe testova, vraća bazu podataka u polazno stanje

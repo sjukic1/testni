@@ -4,6 +4,7 @@ import net.sf.jasperreports.engine.*;
 import net.sf.jasperreports.swing.JRViewer;
 
 import javax.swing.*;
+import java.io.InputStream;
 import java.sql.Connection;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -16,7 +17,7 @@ public class GradoviReport extends JFrame{
         private static final long serialVersionUID = 1L;
 
         public void showReport(Connection conn) throws JRException {
-            String reportSrcFile = getClass().getResource("/reports/gradovi.jrxml").getFile();
+            InputStream reportSrcFile = getClass().getResourceAsStream("/reports/gradovi.jrxml");
             String reportsDir = getClass().getResource("/reports/").getFile();
 
             JasperReport jasperReport = JasperCompileManager.compileReport(reportSrcFile);

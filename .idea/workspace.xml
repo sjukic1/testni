@@ -1,64 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="uradjen 2 zadatak">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_lowagie_itext_2_1_7_js8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jasperreports_jasperreports_6_16_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_64.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_castor_castor_core_1_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_castor_castor_xml_1_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_ecj_3_21_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jfree_jcommon_1_0_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jfree_jfreechart_1_0_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_13_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_win_13_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_13_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_win_13_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_13_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_13_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_13_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_13_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testfx_testfx_core_4_0_15_alpha.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testfx_testfx_junit5_4_0_15_alpha.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_21_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="uradjen 3 zadatak">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/MainStarter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baza.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/baza.db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/resources/db/baza.db.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nrs-t1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/nrs-t1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/nrs-t1/ba/unsa/etf/rpr/GradController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nrs-t1/ba/unsa/etf/rpr/GradController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/nrs-t1/fxml/drzava.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nrs-t1/fxml/drzava.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/nrs-t1/fxml/grad.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nrs-t1/fxml/grad.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/nrs-t1/fxml/pretraga.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nrs-t1/fxml/pretraga.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Drzava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/Drzava.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/DrzavaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/DrzavaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/GeografijaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/GeografijaDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/GlavnaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/GlavnaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Grad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/Grad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/GradController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/GradController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/GradoviReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/GradoviReport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/PretragaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/PretragaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/DrzavaControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/DrzavaControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/GeografijaDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/GeografijaDAOTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/GlavnaControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/GlavnaControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/GradControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/GradControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nrs-t1/Translation.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nrs-t1/Translation_bs.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nrs-t1/Translation_en_US.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nrs-t1/ba/unsa/etf/rpr/Drzava.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nrs-t1/ba/unsa/etf/rpr/DrzavaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nrs-t1/ba/unsa/etf/rpr/GeografijaDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nrs-t1/ba/unsa/etf/rpr/GlavnaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nrs-t1/ba/unsa/etf/rpr/Grad.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nrs-t1/ba/unsa/etf/rpr/GradController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nrs-t1/ba/unsa/etf/rpr/GradoviReport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nrs-t1/ba/unsa/etf/rpr/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nrs-t1/ba/unsa/etf/rpr/PretragaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nrs-t1/css/forme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nrs-t1/fxml/drzava.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nrs-t1/fxml/glavna.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nrs-t1/fxml/grad.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nrs-t1/fxml/pretraga.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nrs-t1/img/slika.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nrs-t1/reports/gradovi.jrxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/nrs-t1/ba/unsa/etf/rpr/DrzavaControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/nrs-t1/ba/unsa/etf/rpr/GeografijaDAOTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/nrs-t1/ba/unsa/etf/rpr/GlavnaControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/nrs-t1/ba/unsa/etf/rpr/GradControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/nrs-t1/ba/unsa/etf/rpr/Zadatak1GlavnaTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/GeografijaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/GeografijaDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/GradoviReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/GradoviReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rpr/Drzava.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rpr/Drzava.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rpr/DrzavaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rpr/DrzavaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rpr/GeografijaDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rpr/GeografijaDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rpr/GlavnaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rpr/GlavnaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rpr/Grad.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rpr/Grad.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rpr/GradController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rpr/GradController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rpr/GradoviReport.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rpr/GradoviReport.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rpr/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rpr/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rpr/PretragaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rpr/PretragaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ba/unsa/etf/rpr/DrzavaControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ba/unsa/etf/rpr/DrzavaControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ba/unsa/etf/rpr/GeografijaDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ba/unsa/etf/rpr/GeografijaDAOTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ba/unsa/etf/rpr/GlavnaControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ba/unsa/etf/rpr/GlavnaControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ba/unsa/etf/rpr/GradControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ba/unsa/etf/rpr/GradControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ba/unsa/etf/rpr/Zadatak1GlavnaTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/Zadatak1GlavnaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/Zadatak1GlavnaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -174,13 +168,18 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579258535779" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/nesto/tut 2" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="Maven.nrs-t1 [test]">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\nrs20-t2-sjukic\resources\db" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -394,7 +393,12 @@
       <workItem from="1616407524180" duration="4618000" />
       <workItem from="1616684736712" duration="96000" />
       <workItem from="1617092481769" duration="44000" />
-      <workItem from="1617532435708" duration="15955000" />
+      <workItem from="1617532435708" duration="16092000" />
+      <workItem from="1617568368315" duration="531000" />
+      <workItem from="1617613085068" duration="2060000" />
+      <workItem from="1617615187197" duration="150000" />
+      <workItem from="1617615374448" duration="4894000" />
+      <workItem from="1617622999005" duration="434000" />
     </task>
     <task id="LOCAL-00001" summary="Initial import">
       <created>1579258425293</created>
@@ -550,7 +554,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617540585720</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="uradjen 3 zadatak">
+      <created>1617549482330</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1617549482330</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -587,13 +598,18 @@
     <MESSAGE value="kopiran tut1 u tut2" />
     <MESSAGE value="uradjen 1 zadatak" />
     <MESSAGE value="uradjen 2 zadatak" />
-    <option name="LAST_COMMIT_MESSAGE" value="uradjen 2 zadatak" />
+    <MESSAGE value="uradjen 3 zadatak" />
+    <option name="LAST_COMMIT_MESSAGE" value="uradjen 3 zadatak" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="62" key="#Inspections" timestamp="1617546958928">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="275" y="62" key="#Inspections/0.40.1366.728@0.40.1366.728" timestamp="1617546958928" />
+    <state x="275" y="62" key="#Project_Structure" timestamp="1617622939967">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="275" y="62" key="#Project_Structure/0.40.1366.728@0.40.1366.728" timestamp="1617622939967" />
     <state x="49" y="40" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617533855866">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
@@ -618,46 +634,46 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="369" y="329" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.40.1366.728@0.40.1366.728" timestamp="1617546380955" />
-    <state x="0" y="40" key="CommitChangelistDialog2" timestamp="1617540584697">
+    <state x="0" y="40" key="CommitChangelistDialog2" timestamp="1617549480774">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="0" y="40" key="CommitChangelistDialog2/0.40.1366.728@0.40.1366.728" timestamp="1617540584697" />
+    <state x="0" y="40" key="CommitChangelistDialog2/0.40.1366.728@0.40.1366.728" timestamp="1617549480774" />
     <state x="389" y="145" key="FileChooserDialogImpl" timestamp="1617544286658">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="389" y="145" key="FileChooserDialogImpl/0.40.1366.728@0.40.1366.728" timestamp="1617544286658" />
-    <state width="1323" height="246" key="GridCell.Tab.0.bottom" timestamp="1617549445113">
+    <state width="1323" height="204" key="GridCell.Tab.0.bottom" timestamp="1617623458868">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="246" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1617549445113" />
-    <state width="1323" height="246" key="GridCell.Tab.0.center" timestamp="1617549445112">
+    <state width="1323" height="204" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1617623458868" />
+    <state width="1323" height="204" key="GridCell.Tab.0.center" timestamp="1617623458868">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="246" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1617549445112" />
-    <state width="1323" height="246" key="GridCell.Tab.0.left" timestamp="1617549445112">
+    <state width="1323" height="204" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1617623458868" />
+    <state width="1323" height="204" key="GridCell.Tab.0.left" timestamp="1617623458868">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="246" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1617549445112" />
-    <state width="1323" height="246" key="GridCell.Tab.0.right" timestamp="1617549445112">
+    <state width="1323" height="204" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1617623458868" />
+    <state width="1323" height="204" key="GridCell.Tab.0.right" timestamp="1617623458868">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="246" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1617549445112" />
+    <state width="1323" height="204" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1617623458868" />
     <state x="213" y="59" key="Maven.ArtifactSearchDialog" timestamp="1617544168822">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="213" y="59" key="Maven.ArtifactSearchDialog/0.40.1366.728@0.40.1366.728" timestamp="1617544168822" />
-    <state x="163" y="40" key="SettingsEditor" timestamp="1617548293472">
+    <state x="163" y="40" key="SettingsEditor" timestamp="1617615042429">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="163" y="40" key="SettingsEditor/0.40.1366.728@0.40.1366.728" timestamp="1617548293472" />
+    <state x="163" y="40" key="SettingsEditor/0.40.1366.728@0.40.1366.728" timestamp="1617615042429" />
     <state x="530" y="319" key="VCS.ChangelistChooser" timestamp="1616410892850">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="530" y="319" key="VCS.ChangelistChooser/0.40.1366.728@0.40.1366.728" timestamp="1616410892850" />
-    <state x="275" y="137" key="Vcs.Push.Dialog.v2" timestamp="1617540591721">
+    <state x="275" y="137" key="Vcs.Push.Dialog.v2" timestamp="1617549485161">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="275" y="137" key="Vcs.Push.Dialog.v2/0.40.1366.728@0.40.1366.728" timestamp="1617540591721" />
+    <state x="275" y="137" key="Vcs.Push.Dialog.v2/0.40.1366.728@0.40.1366.728" timestamp="1617549485161" />
     <state x="387" y="297" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1616409677655">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
