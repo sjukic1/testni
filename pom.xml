@@ -23,7 +23,11 @@
 
     <dependencies>
 
-
+        <dependency>
+            <groupId>net.sf.jasperreports</groupId>
+            <artifactId>jasperreports</artifactId>
+            <version>6.16.0</version>
+        </dependency>
 
         <dependency>
             <groupId>org.testfx</groupId>
