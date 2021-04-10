@@ -1,4 +1,4 @@
-package ba.unsa.etf.rpr;
+package rpr;
 
 import ba.unsa.etf.rpr.DrzavaController;
 import ba.unsa.etf.rpr.GeografijaDAO;

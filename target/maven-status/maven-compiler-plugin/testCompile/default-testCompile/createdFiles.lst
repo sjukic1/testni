@@ -1,4 +1,4 @@
-ba\unsa\etf\rpr\GradControllerTest.class
-ba\unsa\etf\rpr\DrzavaControllerTest.class
-ba\unsa\etf\rpr\GeografijaDAOTest.class
-ba\unsa\etf\rpr\GlavnaControllerTest.class
+rpr\GlavnaControllerTest.class
+rpr\DrzavaControllerTest.class
+rpr\GeografijaDAOTest.class
+rpr\GradControllerTest.class
