@@ -39,14 +39,14 @@
     <orderEntry type="library" name="javafx" level="project" />
     <orderEntry type="library" name="net.sf.jasperreports:jasperreports:6.16.0" level="project" />
     <orderEntry type="library" name="lib1" level="application" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-controls:13.0.2" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-controls:win:13.0.2" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-graphics:13.0.2" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-graphics:win:13.0.2" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-base:13.0.2" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-base:win:13.0.2" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-fxml:13.0.2" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-fxml:win:13.0.2" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-controls:11.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-controls:win:11.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-graphics:11.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-graphics:win:11.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-base:11.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-base:win:11.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-fxml:11.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-fxml:win:11.0.1" level="project" />
     <orderEntry type="library" name="Maven: net.sf.jasperreports:jasperreports:6.16.0" level="project" />
     <orderEntry type="library" name="Maven: commons-beanutils:commons-beanutils:1.9.4" level="project" />
     <orderEntry type="library" name="Maven: commons-collections:commons-collections:3.2.2" level="project" />
