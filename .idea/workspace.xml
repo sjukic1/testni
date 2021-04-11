@@ -20,29 +20,38 @@
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_ecj_3_21_0.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jfree_jcommon_1_0_23.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jfree_jfreechart_1_0_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_13_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_win_13_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_13_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_win_13_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_13_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_13_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_13_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_13_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_3_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_3_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_3_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_13_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_15.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_win_13_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_win_15.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_13_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_15.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_win_13_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_win_15.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_13_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_15.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_13_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_15.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_13_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_15.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_13_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_15.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nrs-t1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/nrs-t1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rpr/GradoviReport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rpr/Drzava.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rpr/Drzava.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rpr/DrzavaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rpr/DrzavaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rpr/GeografijaDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rpr/GeografijaDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rpr/GlavnaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rpr/GlavnaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rpr/Grad.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rpr/Grad.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rpr/GradController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rpr/GradController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rpr/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rpr/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rpr/MainStarter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rpr/MainStarter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rpr/PretragaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rpr/PretragaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/nrs-t1-1.0-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/nrs-t1-1.0-jar-with-dependencies.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/nrs-t1-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/nrs-t1-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/ba.unsa.etf.rpr/GlavnaController.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/ba.unsa.etf.rpr/GlavnaController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/ba.unsa.etf.rpr/GlavnaController.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/ba.unsa.etf.rpr/GlavnaController.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/ba.unsa.etf.rpr/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/ba.unsa.etf.rpr/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/ba.unsa.etf.rpr/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/ba.unsa.etf.rpr/index.source.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/rpr/DrzavaControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/rpr/DrzavaControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/rpr/GeografijaDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/rpr/GeografijaDAOTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/rpr/GlavnaControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/rpr/GlavnaControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/rpr/GradControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/rpr/GradControllerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -395,7 +404,8 @@
       <workItem from="1618092813950" duration="4820000" />
       <workItem from="1618101736907" duration="196000" />
       <workItem from="1618101960127" duration="624000" />
-      <workItem from="1618132010974" duration="3109000" />
+      <workItem from="1618132010974" duration="3718000" />
+      <workItem from="1618137394052" duration="402000" />
     </task>
     <task id="LOCAL-00001" summary="Initial import">
       <created>1579258425293</created>
@@ -712,7 +722,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618135188377</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="test">
+      <created>1618135370057</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1618135370057</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -792,46 +809,46 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="369" y="329" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.40.1366.728@0.40.1366.728" timestamp="1618093126276" />
-    <state x="0" y="40" key="CommitChangelistDialog2" timestamp="1618135183300">
+    <state x="0" y="40" key="CommitChangelistDialog2" timestamp="1618137780855">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="0" y="40" key="CommitChangelistDialog2/0.40.1366.728@0.40.1366.728" timestamp="1618135183300" />
+    <state x="0" y="40" key="CommitChangelistDialog2/0.40.1366.728@0.40.1366.728" timestamp="1618137780855" />
     <state x="389" y="145" key="FileChooserDialogImpl" timestamp="1617544286658">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="389" y="145" key="FileChooserDialogImpl/0.40.1366.728@0.40.1366.728" timestamp="1617544286658" />
-    <state width="1323" height="204" key="GridCell.Tab.0.bottom" timestamp="1618135337558">
+    <state width="1323" height="204" key="GridCell.Tab.0.bottom" timestamp="1618137802546">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="204" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1618135337558" />
-    <state width="1323" height="204" key="GridCell.Tab.0.center" timestamp="1618135337557">
+    <state width="1323" height="204" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1618137802546" />
+    <state width="1323" height="204" key="GridCell.Tab.0.center" timestamp="1618137802545">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="204" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1618135337557" />
-    <state width="1323" height="204" key="GridCell.Tab.0.left" timestamp="1618135337557">
+    <state width="1323" height="204" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1618137802545" />
+    <state width="1323" height="204" key="GridCell.Tab.0.left" timestamp="1618137802545">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="204" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1618135337557" />
-    <state width="1323" height="204" key="GridCell.Tab.0.right" timestamp="1618135337558">
+    <state width="1323" height="204" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1618137802545" />
+    <state width="1323" height="204" key="GridCell.Tab.0.right" timestamp="1618137802546">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="204" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1618135337558" />
+    <state width="1323" height="204" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1618137802546" />
     <state x="213" y="59" key="Maven.ArtifactSearchDialog" timestamp="1617544168822">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="213" y="59" key="Maven.ArtifactSearchDialog/0.40.1366.728@0.40.1366.728" timestamp="1617544168822" />
-    <state x="163" y="40" key="SettingsEditor" timestamp="1618096167177">
+    <state x="163" y="40" key="SettingsEditor" timestamp="1618137797662">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="163" y="40" key="SettingsEditor/0.40.1366.728@0.40.1366.728" timestamp="1618096167177" />
+    <state x="163" y="40" key="SettingsEditor/0.40.1366.728@0.40.1366.728" timestamp="1618137797662" />
     <state x="530" y="319" key="VCS.ChangelistChooser" timestamp="1618133190945">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="530" y="319" key="VCS.ChangelistChooser/0.40.1366.728@0.40.1366.728" timestamp="1618133190945" />
-    <state x="275" y="137" width="816" height="516" key="Vcs.Push.Dialog.v2" timestamp="1618135192477">
+    <state x="275" y="137" width="816" height="516" key="Vcs.Push.Dialog.v2" timestamp="1618135377411">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="275" y="137" width="816" height="516" key="Vcs.Push.Dialog.v2/0.40.1366.728@0.40.1366.728" timestamp="1618135192477" />
+    <state x="275" y="137" width="816" height="516" key="Vcs.Push.Dialog.v2/0.40.1366.728@0.40.1366.728" timestamp="1618135377411" />
     <state x="387" y="297" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1616409677655">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
