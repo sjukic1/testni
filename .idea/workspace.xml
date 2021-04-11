@@ -2,13 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="test">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_lowagie_itext_2_1_7_js2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__bouncycastle_bcmail_jdk14_138.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__bouncycastle_bcprov_jdk14_138.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jasperreports_jasperreports_6_12_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcmail_jdk14_1_38.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk14_1_38.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bctsp_jdk14_1_38.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_castor_castor_core_1_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_castor_castor_xml_1_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_core_compiler_ecj_4_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jfree_jcommon_1_0_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jfree_jfreechart_1_0_19.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/GlavnaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/GlavnaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/GradoviReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/unsa/etf/rpr/GradoviReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rpr/GlavnaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rpr/GlavnaController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/nrs-t1-1.0-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/nrs-t1-1.0-jar-with-dependencies.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/nrs-t1-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/nrs-t1-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/nrs20-t2-1.0-jar-with-dependencies.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/nrs20-t2-1.0.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -361,7 +381,7 @@
       <workItem from="1618092813950" duration="4820000" />
       <workItem from="1618101736907" duration="196000" />
       <workItem from="1618101960127" duration="624000" />
-      <workItem from="1618132010974" duration="1596000" />
+      <workItem from="1618132010974" duration="2800000" />
     </task>
     <task id="LOCAL-00001" summary="Initial import">
       <created>1579258425293</created>
@@ -664,7 +684,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618133424622</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="test">
+      <created>1618133631637</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1618133631637</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -744,30 +771,30 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="369" y="329" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.40.1366.728@0.40.1366.728" timestamp="1618093126276" />
-    <state x="0" y="40" key="CommitChangelistDialog2" timestamp="1618133421195">
+    <state x="0" y="40" key="CommitChangelistDialog2" timestamp="1618133628891">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="0" y="40" key="CommitChangelistDialog2/0.40.1366.728@0.40.1366.728" timestamp="1618133421195" />
+    <state x="0" y="40" key="CommitChangelistDialog2/0.40.1366.728@0.40.1366.728" timestamp="1618133628891" />
     <state x="389" y="145" key="FileChooserDialogImpl" timestamp="1617544286658">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="389" y="145" key="FileChooserDialogImpl/0.40.1366.728@0.40.1366.728" timestamp="1617544286658" />
-    <state width="1323" height="204" key="GridCell.Tab.0.bottom" timestamp="1618133609632">
+    <state width="1323" height="204" key="GridCell.Tab.0.bottom" timestamp="1618135104860">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="204" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1618133609632" />
-    <state width="1323" height="204" key="GridCell.Tab.0.center" timestamp="1618133609632">
+    <state width="1323" height="204" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1618135104860" />
+    <state width="1323" height="204" key="GridCell.Tab.0.center" timestamp="1618135104859">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="204" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1618133609632" />
-    <state width="1323" height="204" key="GridCell.Tab.0.left" timestamp="1618133609632">
+    <state width="1323" height="204" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1618135104859" />
+    <state width="1323" height="204" key="GridCell.Tab.0.left" timestamp="1618135104859">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="204" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1618133609632" />
-    <state width="1323" height="204" key="GridCell.Tab.0.right" timestamp="1618133609632">
+    <state width="1323" height="204" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1618135104859" />
+    <state width="1323" height="204" key="GridCell.Tab.0.right" timestamp="1618135104860">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="204" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1618133609632" />
+    <state width="1323" height="204" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1618135104860" />
     <state x="213" y="59" key="Maven.ArtifactSearchDialog" timestamp="1617544168822">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
@@ -780,10 +807,10 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="530" y="319" key="VCS.ChangelistChooser/0.40.1366.728@0.40.1366.728" timestamp="1618133190945" />
-    <state x="275" y="137" width="816" height="516" key="Vcs.Push.Dialog.v2" timestamp="1618133434477">
+    <state x="275" y="137" width="816" height="516" key="Vcs.Push.Dialog.v2" timestamp="1618133635955">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="275" y="137" width="816" height="516" key="Vcs.Push.Dialog.v2/0.40.1366.728@0.40.1366.728" timestamp="1618133434477" />
+    <state x="275" y="137" width="816" height="516" key="Vcs.Push.Dialog.v2/0.40.1366.728@0.40.1366.728" timestamp="1618133635955" />
     <state x="387" y="297" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1616409677655">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
