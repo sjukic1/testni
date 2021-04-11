@@ -8,6 +8,17 @@
     <artifactId>nrs-t1</artifactId>
     <version>1.0</version>
 
+    <repositories>
+        <repository>
+            <id>jr-ce-releases</id>
+            <url>http://jaspersoft.jfrog.io/jaspersoft/jr-ce-releases</url>
+        </repository>
+        <repository>
+            <id>jaspersoft-third-party</id>
+            <url>http://jaspersoft.artifactoryonline.com/jaspersoft/third-party-ce-artifacts/</url>
+        </repository>
+    </repositories>
+
     <properties>
         <maven.compiler.source>15</maven.compiler.source>
         <maven.compiler.target>15</maven.compiler.target>
@@ -57,6 +68,12 @@
             <artifactId>itextpdf</artifactId>
             <version>5.5.6</version>
             <type>pom</type>
+        </dependency>
+
+        <dependency>
+            <groupId>com.lowagie</groupId>
+            <artifactId>itext</artifactId>
+            <version>2.1.7</version>
         </dependency>
     </dependencies>
     <build>

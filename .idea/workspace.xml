@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nrs-t1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/nrs-t1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -358,7 +356,7 @@
       <workItem from="1618092813950" duration="4820000" />
       <workItem from="1618101736907" duration="196000" />
       <workItem from="1618101960127" duration="624000" />
-      <workItem from="1618132010974" duration="351000" />
+      <workItem from="1618132010974" duration="958000" />
     </task>
     <task id="LOCAL-00001" summary="Initial import">
       <created>1579258425293</created>
@@ -626,7 +624,21 @@
       <option name="project" value="LOCAL" />
       <updated>1618102452418</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="test">
+      <created>1618132490826</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1618132490826</updated>
+    </task>
+    <task id="LOCAL-00040" summary="test">
+      <created>1618132558607</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1618132558607</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -706,30 +718,30 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="369" y="329" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.40.1366.728@0.40.1366.728" timestamp="1618093126276" />
-    <state x="0" y="40" key="CommitChangelistDialog2" timestamp="1618132490216">
+    <state x="0" y="40" key="CommitChangelistDialog2" timestamp="1618132558170">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="0" y="40" key="CommitChangelistDialog2/0.40.1366.728@0.40.1366.728" timestamp="1618132490216" />
+    <state x="0" y="40" key="CommitChangelistDialog2/0.40.1366.728@0.40.1366.728" timestamp="1618132558170" />
     <state x="389" y="145" key="FileChooserDialogImpl" timestamp="1617544286658">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="389" y="145" key="FileChooserDialogImpl/0.40.1366.728@0.40.1366.728" timestamp="1617544286658" />
-    <state width="1323" height="204" key="GridCell.Tab.0.bottom" timestamp="1618132460318">
+    <state width="1323" height="204" key="GridCell.Tab.0.bottom" timestamp="1618132960073">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="204" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1618132460318" />
-    <state width="1323" height="204" key="GridCell.Tab.0.center" timestamp="1618132460318">
+    <state width="1323" height="204" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1618132960073" />
+    <state width="1323" height="204" key="GridCell.Tab.0.center" timestamp="1618132960073">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="204" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1618132460318" />
-    <state width="1323" height="204" key="GridCell.Tab.0.left" timestamp="1618132460318">
+    <state width="1323" height="204" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1618132960073" />
+    <state width="1323" height="204" key="GridCell.Tab.0.left" timestamp="1618132960073">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="204" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1618132460318" />
-    <state width="1323" height="204" key="GridCell.Tab.0.right" timestamp="1618132460318">
+    <state width="1323" height="204" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1618132960073" />
+    <state width="1323" height="204" key="GridCell.Tab.0.right" timestamp="1618132960073">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="204" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1618132460318" />
+    <state width="1323" height="204" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1618132960073" />
     <state x="213" y="59" key="Maven.ArtifactSearchDialog" timestamp="1617544168822">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
@@ -742,10 +754,10 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="530" y="319" key="VCS.ChangelistChooser/0.40.1366.728@0.40.1366.728" timestamp="1617623604960" />
-    <state x="275" y="137" width="816" height="516" key="Vcs.Push.Dialog.v2" timestamp="1618132495782">
+    <state x="275" y="137" width="816" height="516" key="Vcs.Push.Dialog.v2" timestamp="1618132562545">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="275" y="137" width="816" height="516" key="Vcs.Push.Dialog.v2/0.40.1366.728@0.40.1366.728" timestamp="1618132495782" />
+    <state x="275" y="137" width="816" height="516" key="Vcs.Push.Dialog.v2/0.40.1366.728@0.40.1366.728" timestamp="1618132562545" />
     <state x="387" y="297" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1616409677655">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
