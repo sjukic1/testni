@@ -1,4 +1,4 @@
-package ba.unsa.etf.rpr;
+/*package ba.unsa.etf.rpr;
 
 import net.sf.jasperreports.engine.*;
 import net.sf.jasperreports.swing.JRViewer;
@@ -11,9 +11,6 @@ import java.util.HashMap;
 
 public class GradoviReport extends JFrame{
 
-        /**
-         *
-         */
         private static final long serialVersionUID = 1L;
 
         public void showReport(Connection conn) throws JRException {
@@ -41,3 +38,4 @@ public class GradoviReport extends JFrame{
         }
 
 }
+*/
