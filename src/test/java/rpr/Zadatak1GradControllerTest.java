@@ -1,6 +1,9 @@
-/*package ba.unsa.etf.rpr;
+package rpr;
 
 
+import ba.unsa.etf.rpr.GeografijaDAO;
+import ba.unsa.etf.rpr.Grad;
+import ba.unsa.etf.rpr.GradController;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -15,6 +18,8 @@ import org.testfx.api.FxRobot;
 import org.testfx.framework.junit5.ApplicationExtension;
 import org.testfx.framework.junit5.Start;
 
+import java.util.ResourceBundle;
+
 import static javafx.scene.layout.Region.USE_COMPUTED_SIZE;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -28,7 +33,8 @@ public class Zadatak1GradControllerTest {
         GeografijaDAO dao = GeografijaDAO.getInstance();
         dao.vratiBazuNaDefault();
 
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/grad.fxml"));
+        ResourceBundle bundle = ResourceBundle.getBundle("Translation");
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/grad.fxml"),bundle);
         ctrl = new GradController(null, dao.drzave());
         loader.setController(ctrl);
         Parent root = loader.load();
@@ -142,5 +148,3 @@ public class Zadatak1GradControllerTest {
         assertEquals(78404, grad.getPostanskiBroj());
     }
 }
-
-*/

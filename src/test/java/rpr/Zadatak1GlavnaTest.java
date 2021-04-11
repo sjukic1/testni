@@ -1,4 +1,4 @@
-/*package ba.unsa.etf.rpr;
+package rpr;
 
 import ba.unsa.etf.rpr.GeografijaDAO;
 import ba.unsa.etf.rpr.GlavnaController;
@@ -20,6 +20,7 @@ import org.testfx.framework.junit5.ApplicationExtension;
 import org.testfx.framework.junit5.Start;
 
 import java.sql.SQLException;
+import java.util.ResourceBundle;
 
 import static javafx.scene.layout.Region.USE_COMPUTED_SIZE;
 import static org.junit.jupiter.api.Assertions.*;
@@ -32,7 +33,8 @@ public class Zadatak1GlavnaTest {
 
     @Start
     public void start (Stage stage) throws Exception {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/glavna.fxml"));
+        ResourceBundle bundle = ResourceBundle.getBundle("Translation");
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/glavna.fxml"), bundle);
         ctrl = new GlavnaController();
         loader.setController(ctrl);
         Parent root = loader.load();
@@ -78,6 +80,12 @@ public class Zadatak1GlavnaTest {
         // Klik na dugme Ok
         robot.clickOn("#btnOk");
 
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
         // Da li je Sarajevo dodano u bazu?
         GeografijaDAO dao = GeografijaDAO.getInstance();
         assertEquals(6, dao.gradovi().size());
@@ -113,6 +121,12 @@ public class Zadatak1GlavnaTest {
         // Klik na dugme Ok
         robot.clickOn("#btnOk");
 
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
         // Da li je promijenjen poštanski broj Graza?
         graz = dao.nadjiGrad("Graz");
         assertEquals(74211, graz.getPostanskiBroj());
@@ -142,7 +156,7 @@ public class Zadatak1GlavnaTest {
 
         boolean found = false;
         for (TableColumn column : tableViewGradovi.getColumns()) {
-            if (column.getText().equals("Poštanski broj")) {
+            if (column.getText().equals("Postal code")) {
                 found = true;
             }
         }
@@ -155,9 +169,9 @@ public class Zadatak1GlavnaTest {
         // Čekamo da dijalog postane vidljiv
         robot.lookup("#fieldNaziv").tryQuery().isPresent();
 
-        theStage.hide();
+        //theStage.hide();
 
         TextField fld = robot.lookup("#fieldNaziv").queryAs(TextField.class);
         assertEquals("Graz", fld.getText());
     }
-}*/
+}

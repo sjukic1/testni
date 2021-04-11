@@ -39,7 +39,7 @@ class GeografijaDAOTest {
         Grad nepoznat = dao.glavniGrad("Bosna i Hercegovina");
         assertNull(nepoznat);
         Grad bech = dao.glavniGrad("Austrija");
-        assertEquals("Beč", bech.getNaziv());
+        assertEquals("Bec", bech.getNaziv());
     }
 
     @Test
