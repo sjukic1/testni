@@ -1,11 +1,10 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
 nrs-t1,ba.unsa.etf.rpr,DrzavaController,128,0,8,0,30,0,10,0,6,0
-nrs-t1,ba.unsa.etf.rpr,GradoviReport,65,0,0,0,17,0,2,0,2,0
 nrs-t1,ba.unsa.etf.rpr,Main,43,0,0,0,12,0,3,0,3,0
 nrs-t1,ba.unsa.etf.rpr,Grad,102,0,0,0,42,0,17,0,17,0
 nrs-t1,ba.unsa.etf.rpr,Drzava,39,0,0,0,17,0,9,0,9,0
 nrs-t1,ba.unsa.etf.rpr,GeografijaDAO,635,0,30,0,178,0,35,0,20,0
-nrs-t1,ba.unsa.etf.rpr,GlavnaController,494,0,18,0,135,0,22,0,13,0
+nrs-t1,ba.unsa.etf.rpr,GlavnaController,484,0,18,0,131,0,22,0,13,0
 nrs-t1,ba.unsa.etf.rpr,GradController,467,0,32,0,96,0,25,0,9,0
 nrs-t1,ba.unsa.etf.rpr,PretragaController,112,0,10,0,23,0,11,0,6,0
 nrs-t1,ba.unsa.etf.rpr,MainStarter,6,0,0,0,3,0,2,0,2,0

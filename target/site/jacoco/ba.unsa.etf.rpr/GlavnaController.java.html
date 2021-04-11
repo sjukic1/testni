@@ -11,7 +11,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.stage.Stage;
-import net.sf.jasperreports.engine.JRException;
+//import net.sf.jasperreports.engine.JRException;
 
 import java.io.File;
 import java.io.IOException;
@@ -169,11 +169,11 @@ public class GlavnaController {
 <span class="nc" id="L169">    }</span>
 
     public void actionStampanje(ActionEvent actionEvent){
-        try {
-<span class="nc" id="L173">            new GradoviReport().showReport(GeografijaDAO.getInstance().conn);</span>
-<span class="nc" id="L174">        } catch (JRException e1) {</span>
-<span class="nc" id="L175">            e1.printStackTrace();</span>
-<span class="nc" id="L176">        }</span>
+       /* try {
+            new GradoviReport().showReport(GeografijaDAO.getInstance().conn);
+        } catch (JRException e1) {
+            e1.printStackTrace();
+        }*/
 <span class="nc" id="L177">    }</span>
 
     public void odabirJezika (ActionEvent actionEvent){
